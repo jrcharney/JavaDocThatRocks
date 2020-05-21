@@ -1,0 +1,95 @@
+@startuml
+
+package java {
+    package base {}
+    package compiler {}
+    package datatransfer {}
+    package desktop {}
+    package instrument {}
+    package logging {}
+    package management {
+        package rmi {}
+    }
+    package naming {}
+    package net {
+        package http {}
+    }
+    package prefs {}
+    package rmi {}
+    package scripting {}
+    package se {}
+    package security {
+        package jgss {}
+        package sasl {}
+    }
+    package smartcardio {}
+    package sql {
+        package rowset {}
+    }
+    package transaction {
+        package xa {}
+    }
+    package xml {
+        package crypto {}
+    }
+}
+
+package jdk {
+    package accessibility {}
+    package attach {}
+    package charsets {}
+    package compiler {}
+    package crypto {
+        package cryptoki {}
+        package ec {}
+    }
+    package dynalink {}
+    package editpad {}
+    package hotspot {
+        package agent {}
+    }
+    package httpserver {}
+    package incubator {
+        package foreign {}
+        package jpackage {}
+    }
+    package jartool {}
+    package javadoc {}
+    package jcmd {}
+    package jconsole {}
+    package jdeps {}
+    package jdi {}
+    package jdwp {
+        package agent {}
+    }
+    package jfr {}
+    package jlink {}
+    package jshell {}
+    package jsobject {}
+    package jstatd {}
+    package localedata {}
+    package management {
+        package agent {}
+        package jfr {}
+    }
+    package naming {
+        package dns {}
+        package rmi {}
+    }
+    package net {}
+    package rmic {}
+    package scripting {
+        package nashorn {}
+    }
+    package sctp {}
+    package security {
+        package auth {}
+        package jgss {}
+    }
+    package xml {
+        package dom {}
+    }
+    package zipfs {}
+}
+
+@enduml
